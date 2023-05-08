@@ -42,20 +42,6 @@ section h2 {
 
 /* Kontakt, formularz */ 
 
-textarea [name=message] {height: 150px;
-}
-
-/* form {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    
-  }
-
-form {
-    display: flex;
-    flex-direction: column;
-} */
 
 .form-group {
     max-width: 600px;
@@ -75,7 +61,7 @@ form {
     font-size: 16px;
     border-radius: 5px;
     border: 1px solid #ccc;}
-    
+
     button[type="submit"] {
         display: block;
         margin: 0 auto;

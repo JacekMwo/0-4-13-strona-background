@@ -1,11 +1,19 @@
 /* menu */
-.menu {font-size: 1em;
+.menu {
+    font-size: 1em;
     display: flex;
-    justify-content: center;}
+    justify-content: center;
+}
 
-.menu a {color: rgb(40, 14, 158);
-    margin-right: 100px;
-    display: inline-block;
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    display: inline;
+    margin-right: 10px;
 }
 
 /* Headder */
@@ -19,18 +27,25 @@
     background-position: 50% 15%;
     background-repeat: no-repeat;
 }
-    /* O mnie */
-h2 {text-align: center;}
-p {font-size: large;
+
+/* O mnie */
+h2 {
     text-align: center;
-margin-left: 12%;
-margin-right: 12%;
-margin-bottom: 2%;}
+}
+
+p {
+    font-size: large;
+    text-align: center;
+    margin-left: 12%;
+    margin-right: 12%;
+    margin-bottom: 2%;
+}
 
 /* portfolio */
 section h2 {
     text-align: center;
 }
+
 .obrazki {
     margin-top: 2%;
     display: flex;
@@ -40,7 +55,7 @@ section h2 {
     margin-bottom: 2%;
 }
 
-/* Kontakt, formularz */ 
+/* Kontakt, formularz */
 
 
 .form-group {
@@ -49,22 +64,21 @@ section h2 {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-  }
-  
-  .form-group label {
+}
+
+.form-group label {
     margin-bottom: 5px;
-  }
-  
-  .form-group input,
-  .form-group textarea {
+}
+
+.form-group input,
+.form-group textarea {
     padding: 5px;
     font-size: 16px;
     border-radius: 5px;
-    border: 1px solid #ccc;}
+    border: 1px solid #ccc;
+}
 
-    button[type="submit"] {
-        display: block;
-        margin: 0 auto;
-      }
-      
-  
+button[type="submit"] {
+    display: block;
+    margin: 0 auto;
+}
